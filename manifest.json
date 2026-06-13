@@ -1,15 +1,21 @@
 {
   "manifest_version": 3,
-  "name": "Google Default Logo",
+  "name": "Default Logo for Google Search",
   "version": "0.1.0",
   "description": "Keep Google home and search pages using the default Google logo instead of Doodles.",
+  "icons": {
+    "16": "assets/icon-16.png",
+    "32": "assets/icon-32.png",
+    "48": "assets/icon-48.png",
+    "128": "assets/icon-128.png"
+  },
   "content_scripts": [
     {
-    "matches": [
+      "matches": [
         "https://www.google.com/*"
-    ],
-    "js": ["content.js"],
-    "run_at": "document_start"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start"
     }
   ],
   "web_accessible_resources": [

@@ -1,4 +1,4 @@
-# google-default-logo
+# Default Logo for Google Search
 
 A minimal Chrome extension that keeps Google pages showing the default Google logo instead of Doodles.
 
@@ -42,6 +42,7 @@ google-default-logo/
   content.js
   assets/
     google-logo.svg
+    icon-*.png
   docs/
     设计记录.md
 ```
